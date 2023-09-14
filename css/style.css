@@ -4,6 +4,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
+    font-family: 'Fredoka', sans-serif;
+}
+img{
+    max-width: 100%;
+    float: left;
     
 }
+
+.conteiner{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: magenta;
+    padding: 50px;
+}
+p{
+    text-align: center;
+}
+
+.badge{
+    float: left;   
+    /* border: 1px solid black; */
+    width: calc(100% / 3);
+    text-align: center;
+    padding: 20px 20px;
+    color: white;
+    
+    
+
+    
+    
+}
+ .badge img{
+    height: 150px;
+ }
+ 
+ .row{
+    
+ }
+ .card{
+    background-color: black;
+ }
