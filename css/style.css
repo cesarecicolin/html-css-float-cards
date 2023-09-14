@@ -1,54 +1,67 @@
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     font-family: 'Fredoka', sans-serif;
 }
-img{
-    max-width: 100%;
-    float: left;
-    
-}
 
-.conteiner{
-    width: 80%;
+.container{
+    width: 70%;
     margin: 0 auto;
 }
 
+main{
+    padding-top: 2rem;
+}
+
+img{
+    max-width: 100%;
+    float: left;
+    height: 100px;
+    
+}
+    
 h1{
-    text-align: center;
+    color: fuchsia;
     font-size: 3rem;
-    color: magenta;
-    padding: 50px;
-}
-p{
+    margin-bottom: 1em;
     text-align: center;
 }
 
-.badge{
-    float: left;   
-    /* border: 1px solid black; */
+p{font-size: 20px;
+    text-align: center;
+}
+
+.col{
+    /* border: 1px solid rgb(0, 0, 0);   */
+
     width: calc(100% / 3);
-    text-align: center;
-    padding: 20px 20px;
-    color: white;
-    
-    
-
-    
-    
+    float: left;
+    text-align: left;
+    padding: 10px 10px;
 }
- .badge img{
-    height: 150px;
- }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.raw{
+    background-color: aqua;
+}
+
+.card{
+    background-color: #0f0e17;
+    color: white;
+}
  
- .row{
+
+span{
+    color: #50dbff;
+}
+   
+        
     
- }
- .card{
-    background-color: black;
- }
